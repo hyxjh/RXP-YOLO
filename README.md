@@ -111,4 +111,4 @@ RXP-YOLO/
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0), consistent with the Ultralytics YOLO framework on which it is based.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0)
