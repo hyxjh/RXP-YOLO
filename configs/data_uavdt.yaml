@@ -1,0 +1,30 @@
+# Example data configuration for UAVDT dataset
+
+# Dataset paths (update these paths)
+path: ./datasets/UAVDT  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (optional)
+
+# Classes
+nc: 10  # number of classes
+names:
+  0: pedestrian
+  1: person
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
+
+# Dataset format
+format: yolo
+
+# Image size
+imgsz: 640
+
+# Batch size
+batch: 16
